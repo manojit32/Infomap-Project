@@ -1,0 +1,70 @@
+node {
+	size: 16px;
+	fill-color: cyan;
+	text-padding: 2;
+	text-mode: normal;
+	text-alignment: center;
+	z-index: 2;
+}
+
+node.marked {
+	size: 16px;
+	fill-color: red;
+	text-padding: 2;
+	text-mode: normal;
+	text-alignment: center;
+	z-index: 2;
+}
+
+node.unmarked {
+	size: 16px;
+	fill-color: black;
+	text-padding: 2;
+	text-mode: normal;
+	text-alignment: center;
+	z-index: 2;
+}
+
+node.current {
+	size: 16px;
+	fill-color: red;
+	text-padding: 2;
+	text-mode: normal;
+	text-alignment: center;
+	z-index: 2;
+}
+
+node.visited {
+	size: 14px;
+	fill-color: purple;
+	text-padding: 2;
+	text-mode: normal;
+	text-alignment: center;
+	z-index: 2;
+}
+
+edge.visited {
+	shape: line;
+	fill-color: blue;
+	text-padding: 2;
+	text-mode: normal;
+	z-index: 1;
+}
+
+edge.current {
+	shape: line;
+	fill-color: red;
+	text-padding: 2;
+	text-mode: normal;
+	z-index: 1;
+}
+
+
+edge {
+	shape: line;
+	fill-mode: dyn-plain;
+	fill-color: green,yellow,purple;
+	text-padding: 2;
+	text-mode: normal;
+	z-index: 1;
+}
